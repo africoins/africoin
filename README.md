@@ -14,7 +14,7 @@ Litecoin Core is released under the terms of the MIT license. See COPYING for mo
 
 Developers work in their own trees, then submit pull requests when they think their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Litecoin development team members simply pulls it.
+If it is a simple/trivial/non-controversial change, then one of the Africoin development team members simply pulls it.
 
 If it is a more complicated or potentially controversial change, then the patch submitter will be asked to start a discussion (if they haven't already) on the mailing list.
 
