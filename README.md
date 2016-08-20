@@ -8,7 +8,7 @@ For more information, as well as an immediately useable, binary version of the A
 
 #License
 
-Litecoin Core is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
+Africoin Core is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
 
 #Development process
 
@@ -20,19 +20,19 @@ If it is a more complicated or potentially controversial change, then the patch 
 
 The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if the code doesn't match the project's coding conventions (see doc/coding.md) or are controversial.
 
-The master-0.10 branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are created regularly to indicate new official, stable release versions of Litecoin.
+The master-0.10 branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are created regularly to indicate new official, stable release versions of Africoin.
 Testing
 
 Testing and code review is the bottleneck for development; we get more pull requests than we can review and test on short notice. Please be patient and help out by testing other people's pull requests, and remember this is a security-critical project where any mistake might cost people lots of money.
 
 #Manual Quality Assurance (QA) Testing
 
-Large changes should have a test plan, and should be tested by somebody other than the developer who wrote the code. Creating a thread in the Litecoin discussion forum will allow the Litecoin development team members to review your proposal and to provide assistance with creating a test plan.
+Large changes should have a test plan, and should be tested by somebody other than the developer who wrote the code. Creating a thread in the Africoin discussion forum will allow the Africoin development team members to review your proposal and to provide assistance with creating a test plan.
 Translations
 
 Important: We do not accept translation changes as GitHub pull requests because the next pull from Transifex would automatically overwrite them again.
 
-We only accept translation fixes that are submitted through Bitcoin Core's Transifex page. Translations are converted to Litecoin periodically.
+We only accept translation fixes that are submitted through Bitcoin Core's Transifex page. Translations are converted to Africoin periodically.
 Development tips and tricks
 
 #Compiling for debugging
@@ -49,7 +49,7 @@ The Qt code routes qDebug() output to debug.log under category "qt": run with -d
 
 #Testnet and regtest modes
 
-Run with the -testnet option to run with "play litecoins" on the test network, if you are testing multi-machine code that needs to operate across the internet.
+Run with the -testnet option to run with "play Africoins" on the test network, if you are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the -regtest option. In regression test mode, blocks can be created on-demand; see qa/rpc-tests/ for tests that run in -regtest mode.
 
